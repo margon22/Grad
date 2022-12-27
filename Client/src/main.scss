@@ -1,0 +1,25 @@
+table{
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    tr{
+        display: flex;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #777;
+        td{
+            font-size: 1.5rem;
+            padding: 10px;
+        }
+    }
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.btn-announce{
+    font-size: 1rem;
+}
